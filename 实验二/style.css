@@ -1,0 +1,75 @@
+/*
+* @Author: 凛冬
+* @Date:   2018-03-26
+* @Last Modified by:   凛冬
+* @Last Modified time: 2018-03-26
+*/
+.header{
+	font-family: 宋体;
+	color: green;
+}
+span#website{
+	color: red;
+}
+span#search{
+	float: right;
+}
+span#suggest{
+	float: right;
+}
+img.search{
+	height: 30px;
+}
+input.search{
+	height: 20px;
+}
+hr{
+	background-color: #00CCFF;
+	height: 2px;
+	border: none;
+}
+p.location{
+	font-size: 5px;
+	color: #969696;
+}
+div.footer{
+	font-size: 15px;
+	color: #969696;
+	text-align: center;
+	position: absolute;
+	bottom: 0px;
+	width: 100%;
+}
+div.body{
+	width: 100%;
+	height: 100%;
+}
+div.table-left-title{
+	text-align: center;
+	height: 100%;
+	background-color: #99CCFF;
+	border: 1px solid #0033FF;
+}
+div.table-left{
+	background-color: #EFFCF8;
+	font-size: 15px;
+	border: 1px solid #0033FF;
+	height: 425px;
+}
+#table{
+	width: 100%;
+	border-collapse:collapse;
+}
+#table td{
+	border: 1px solid #0033FF;
+	padding:3px 7px 2px 7px;
+}
+div.table-right{
+	width: 66%;
+	height: 100%;
+	float: right;
+	border: 1px solid #ccdbec;
+	text-align: left;
+	background-color: #EFFCF8;
+}
+

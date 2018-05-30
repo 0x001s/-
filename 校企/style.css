@@ -1,0 +1,87 @@
+/*
+* @Author: 凛冬
+* @Date:   2018-04-23
+* @Last Modified by:   凛冬
+* @Last Modified time: 2018-04-23
+*/
+div.top{
+	width: 100%;
+	float: left;
+	background-color: #000000;
+}
+div.time{
+	float: right;
+	text-align: right;
+	color: white;
+}
+#banner{
+	width: 100%;
+}
+#reltop{
+	width: 270px;
+	float: left;
+}
+#reltop1{
+	float: right;
+	width: 1000px;
+	height: 27px;
+}
+div.left{
+	float: left;
+	width: 20%;
+}
+#usr{
+	position: absolute;
+	top: 200px;
+	left: 50px;
+	color: white;
+	font-size: 10px;
+}
+div.yewu{
+	font-size: 10px;
+	background-color: white;
+	margin: 0 20px 0;
+	width: 100px;
+	color: #3399FF;
+}
+div.right{
+	float: right;
+	width: 80%;
+}
+img.l1{
+	float: left;
+}
+div.table{
+	width: 80%;
+}
+#text1{
+	float: right;
+}
+#wtf{
+	width: 80%;
+	height: 20px;
+}
+#locat{
+	width: 300px;
+	height: 25px;
+}
+#text{
+	font-size: 10px;
+	float: right;
+	text-align: right;
+}
+#number{
+	width: 40%;
+	float: left;
+	font-size: 10px;
+	color: #1188FF;
+}
+#number1{
+	float: right;
+	font-size: 10px;
+	color: #1188FF;
+	text-align: right;
+}
+#image1{
+	width: 150px;
+}

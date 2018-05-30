@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<title>赶快回家网</title>
+<link href="css/style.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="js/javascript.js"></script>
+<!--添加logo-->
+<link rel="bookmark" type="image/x-icon" href="images/logo.ico">
+<link rel="shortcut icon" href="images/logo.ico">
+<link rel="icon" href="images/logo.ico">
+</head>
+<body onload="changeColor()" style="cursor: url('images/pclose1.cur'),auto;">
+<!--header-->
+<div id="top_bg">
+    <div id="top">
+        <ul class="left">
+            <li><a href="register.html" onclick="Login()">登录</a></li>
+            <li><a href="register.html">免费注册</a></li>
+        </ul>
+        <ul class="right">
+            <li class="list" onmouseover="change('list_cur','block')" onmouseout="change
+    ('list_cur','none')">
+                <span>个人中心</span>
+                <div id="list_cur">
+                    <a href="#" onclick="Login()">已完成订单</a>
+                    <a href="#" onclick="Login()">未完成订单</a>
+                    <a href="#" onclick="Login()">我的保险</a>
+                    <a href="#" onclick="Login()">账户安全</a>
+                    <a href="#" onclick="Login()">个人信息</a>
+                    <a href="#" onclick="Login()">常用联系人</a>
+                </div>
+            </li>
+            <li class="line">|</li>
+            <li><span onclick="Show();">使用须知</span></li>
+            <li class="line">|</li>
+            <li><span>收藏夹</span></li>
+            <li class="line">|</li>
+            <li><span>货物快运</span></li>
+            <li class="line">|</li>
+            <li><a href="me.html"><span>联系我们</span></a></li>
+        </ul>
+    </div>
+</div>
+<!--nav-->
+<div id="nav_bg">
+	<div class="nav">
+    	<h2><img src="images/logo.jpg" /></h2>
+        <ul>
+            <li><a href="#">汽车票</a></li>
+            <li><a href="#">时刻表</a></li>
+            <li><a href="#">汽车站</a></li>
+            <li><a href="#">酒店预订</a></li>
+            <li><a href="#">旅客问答</a></li>
+        </ul>
+    </div>
+</div>
+<!--banner-->
+<div id="banner"><img src="images/banner.jpg" /></div>
+<!--注册页面-->
+<div class="register">
+<p id="register">用户注册</p>
+<br>
+<p id="username">用户名:<input type="text" name="usr" placeholder="username" missingMessage="用户名必须填写"></p>
+<br>
+<p id="password">密码:<input type="password" id="pwd1" placeholder="123456"></p>
+<br>
+<p id="confirm">确认密码:<input type="password" id="pwd2" placeholder="123456" onblur="CheckPwd();"></p>
+<span id="error" style="color: red;text-align: center;display: none;">*两次输入密码不一致*</span>
+<br>
+<p id="comment">验证码<input type="text" name="com" placeholder="1234" id="com" onblur="CheckCom();"></p>
+<span id="error1" style="color: red;text-align: center;display: none;">*验证码必须为4位*</span>
+<br>
+<div align="center"><a href="index.html"><input type="submit" name="提交" onclick="submit();"></a></div>
+</div>
+<!--footer-->
+<div id="footer">赶快回家版权所有2000-2016京ICP备08001421号&nbsp;&nbsp;京公网安备110108007702&nbsp&nbsp&nbsp&nbsp<strong><span id="ShowTime"></span></strong></div>
+<script>
+ function run(){
+ var time = new Date();//获取系统当前时间
+ var hour = time.getHours();
+ var minutes = time.getMinutes();
+ var seconds = time.getSeconds();
+ console.log(seconds);
+ if(hour<10){
+ hour = "0"+hour;
+ }
+ if(minutes<10){
+ minutes = "0"+minutes;
+ }
+ if(seconds<10){
+ seconds = "0"+seconds;
+ }
+ //var newDate = year+"年"+month+"月"+date+"日"+week+hour+":"+minutes+":"+seconds;
+ document.getElementById("ShowTime").innerHTML = hour+":"+minutes+":"+seconds;
+ setTimeout('run()',1000);
+ }
+ run();
+</script>
+</body>
+</html>

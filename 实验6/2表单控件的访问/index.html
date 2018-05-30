@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>这是个注册页面</title>
+	<meta charset="utf-8">
+	<meta author="凛冬">
+</head>
+<body>
+<p>用户名:<input type="text" id="usr" placeholder="username"></p>
+<p>密码:<input type="password" id="pwd" placeholder="password"></p>
+<p>性别:<input type="radio" name="sex" value="male" checked>male<input type="radio" name="sex" value="女">女</p>
+<p>tel:<input type="text" id="tel" placeholder="phonenumber"></p>
+<p>兴趣爱好:<input type="checkbox" name="hobby" value="读书">读书<input type="checkbox" name="hobby" value="看电视">看电视<input type="checkbox" name="hobby" value="发呆">发呆<input type="checkbox" name="hobby" value="其他">其他</p>
+<p>籍贯:
+<select id="jiguan">
+  <option name="jiguan" value="山东">山东</option>
+  <option name="jiguan" value="陕西">陕西</option>
+  <option name="jiguan" value="山西" selected="selected">山西</option>
+  <option name="jiguan" value="广东">广东</option>
+  <option name="jiguan" value="其他">其他</option>
+</select>
+</p>
+<p>个人简介:</p>
+<textarea id="myself" rows="5" cols="30" placeholder="introduce yourself in here">
+</textarea>
+<br>
+<script type="text/javascript">
+function view() {
+	var a = document.getElementById("usr");
+	var b = document.getElementById("pwd");
+	var c = document.getElementsByName("sex");
+	var sex;
+	var e = document.getElementById("tel");
+	var f = document.getElementsByName("hobby");
+	var str = [];
+    for(i=0;i<f.length;i++){
+        if(f[i].checked){
+            str = str + f[i].value + " ";
+        }
+    }
+	if(c[0].checked == true){
+		sex=c[0].value;
+	}
+	else{
+		sex=c[1].value;
+	}
+	var g = document.getElementById('jiguan');
+	var str1=g.selectedIndex;
+	var h = document.getElementById('myself')
+	alert("请核对您的信息:\n用户名:" + a.value + "\n密码:" + b.value +"\n性别:" + sex + "\n手机号:" + e.value + "\n兴趣爱好:" + str + "\n籍贯:" + g.options[str1].value + "\n个人简介:" + h.value);
+}
+</script>
+<button type="button" onclick="view()">注册</button>
+<button type="reset" onclick="location.reload()">重置</button>
+</body>
+</html>
