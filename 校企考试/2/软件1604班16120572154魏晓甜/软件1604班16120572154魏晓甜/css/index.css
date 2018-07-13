@@ -1,0 +1,116 @@
+@charset "utf-8";
+/* CSS Document */
+html,body{
+width:100%;
+height:100%;
+margin:0 auto;
+padding:0px;
+}
+#all{
+	width:766px;;
+	height:736px;
+	margin:0 auto;
+}
+#div_head{
+	margin:0 auto;
+	width:766px;
+	height:157px;
+	background-image:url(../images/top_addprofile.jpg);
+}
+#div_left{
+	float:left;
+	width:214px;
+}
+#div_search{
+	width:100%;
+	height:218px;
+	background-image:url(../images/h2_02.jpg);
+}
+#div_login{
+	width:100%;
+	height:140px;
+	background-image:url(../images/h2_04.jpg);
+}
+#div_news{
+	width:100%;
+	height:221px;
+	background-image:url(../images/h2_05.jpg);
+}
+#div_middle{
+	width:377px;
+	float:left;
+}
+#div_woman1{
+	width:188px;
+	height:218px;
+	background-image:url(../images/pic1bg2.jpg);
+	background-repeat:no-repeat;
+	float:left;
+}
+#div_woman2{
+	width:189px;
+	height:218px;
+	background-image:url(../images/pic2bg2.jpg);
+	background-repeat:no-repeat;
+	float:left;
+}
+#div_tour{
+	width:100%;
+	height:183px;
+	background-image:url(../images/h5_07.jpg);
+	float:left;
+}
+#div_another{
+	width:100%;
+	height:178px;
+	background-image:url(../images/h6_10.jpg);
+	float:left;
+}
+#div_right{
+	float:left;
+	width:175px;
+}
+#div_facts{
+	width:100%;
+	height:218px;
+	background-image:url(../images/h4_05.jpg);
+}
+#div_profiles{
+	width:100%;
+	height:183px;
+	background-image:url(../images/h5_08.jpg);
+}
+#div_tips{
+	width:100%;
+	height:178px;
+	background-image:url(../images/h6_11.jpg);
+}
+.h1{
+	color:white;
+	margin-left:40px;
+	line-height:30px;
+}
+#form_search .h2{
+	color:green;
+	margin-left:20px;
+	font-size:12px;
+	height:14px;
+}
+.h3{
+	float:right;
+	margin-top:-5px;
+	margin-right:40px;
+}
+.h4{
+	font-size:12px;
+	height:14px;
+}
+.h5{
+	color:#960;
+	text-decoration:underline;
+	float:right;
+	font-size:12px;
+	height:14px;
+	margin-top:-2px;
+	margin-right:20px;
+}

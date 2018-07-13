@@ -1,0 +1,126 @@
+*{
+  margin:0px;
+  padding: 0px;
+}
+
+a{
+  text-decoration: none;
+}
+
+.content{
+  padding: 8px;
+  width:760px;
+  margin: 10px auto;
+  overflow: hidden;
+  background:#fff;
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+
+.content .left{
+  float:left;
+  width:217px;
+  margin-right: 6px;
+  
+}
+
+.content .left .left-top{
+  padding: 0px 0px 20px 0px;
+}
+
+.content .right{
+  float:left;
+  width:526px;
+}
+
+.card{
+  overflow: hidden;
+  padding: 3px 0;
+}
+
+.card .c-l{
+  float:left;
+  width:30%;
+  box-sizing: border-box;
+  padding: 10px;
+}
+
+.card .c-r{
+  float:right;
+  width:70%;
+  padding-left: 50px;
+  padding-top:20px;
+  font-size: 12px;
+  font-weight:800;
+  color: #333;
+  box-sizing: border-box;
+}
+.left-word{
+	color:#F00;
+	padding:20px;
+}
+
+.top-left{
+	float:left;
+}
+
+.top-right{
+	float:right;
+}
+
+.right-card{
+}
+.rc-1{
+	font-size:12px;
+	display: inline-block;
+}
+.rc-2{
+	font-size:12px;
+	display: inline-block;
+}
+.rc-3{
+	font-size:12px;
+	display: inline-block;
+}
+
+.rc-4{
+	font-size:12px;
+	display: inline-block;
+}
+
+.rc-5{
+	font-size:12px;
+	display: inline-block;
+}
+.rc-6{
+	font-size:12px;
+	display: inline-block;
+}
+
+.rc-7{
+	font-size:12px;
+	display: inline-block;
+}
+
+.rc-8{
+	font-size:12px;
+	display: inline-block;
+}
+
+.footer{
+    width:782px;
+    margin: 0px auto;
+}
+.footer-left{
+	float:left;
+	font-size:12px;
+}
+.footer-right{
+	float:right;
+	font-size:16px;
+	display: inline-block;
+}
+.footer-word{
+	display: inline-block;
+	font-size:12px;
+}

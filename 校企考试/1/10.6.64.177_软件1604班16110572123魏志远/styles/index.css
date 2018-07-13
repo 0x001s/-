@@ -1,0 +1,129 @@
+@charset "utf-8";
+/* CSS Document */
+html,body{
+	width:100%;
+	height:100%;
+	margin:0px;
+	padding:0px;
+}
+.divMain{
+	width:766px;
+	margin:0 auto;
+}
+.divHead{
+	width:100%;
+	height:157px;
+	background-image:url(../images/head.jpg);
+}
+.divBody{
+	width:100%;
+	height:583px;
+}
+.divBL{
+	width:214px;
+	float:left;
+}
+.divBL1{
+	width:100%;
+	height:218px;
+	background-image:url(../images/divBL1.jpg);
+}
+.divBHead{
+	color:#FFF;
+	font-size:14px;
+	font-weight:800;
+	margin-left:45px;
+	padding-top:5px;
+}
+.divBL1Body{
+	margin-top:10px;
+}
+.divBL2{
+	width:100%;
+	height:140px;
+	background-image:url(../images/divBL2.jpg);
+}
+.divBL2Body{
+	margin-top:10px;
+}
+.divBL3{
+	width:100%;
+	height:221px;
+	background-image:url(../images/divBL3.jpg);
+}
+.divBR{
+	width:552px;
+	float:left;
+}
+.divBRL{
+	width:377px;
+	float:left;
+}
+.divBRL1{
+	width:100%;
+	height:218px;
+}
+.divBRL1L{
+	width:188px;
+	height:100%;
+	float:left;
+	background-image:url(../images/divBRL1L.jpg);
+}
+.divBRL1R{
+	width:188px;
+	height:100%;
+	float:right;
+	background-image:url(../images/divBRL1R.jpg);
+}
+.divBRL2{
+	width:100%;
+	height:183px;
+	background-image:url(../images/divBRL2.jpg);
+}
+.a{
+	margin-top:9px;
+	margin-left:20px;
+}
+.divBRL3{
+	width:100%;
+	height:178px;
+	background-image:url(../images/divBRL3.jpg);
+}
+.p{
+	margin-top:10px;
+	margin-left:30px;
+}
+.px{
+	margin-top:0px;
+	float:left;
+}
+.ld{
+	margin-top:0px;
+	float:left;
+}
+.divBRR{
+	width:175px;
+	float:left;
+}
+.divBRR1{
+	width:100%;
+	height:218px;
+	background-image:url(../images/divBRR1.jpg)
+}
+.b{
+	margin-top:60px;
+}
+.divBRR2{
+	width:100%;
+	height:183px;
+	background-image:url(../images/divBRR2.jpg);
+}
+.divBRR3{
+	width:100%;
+	height:178px;
+	background-image:url(../images/divBRR3.jpg);
+}
+.c{
+	margin-top:6px;
+	margin-left:5px;
+}

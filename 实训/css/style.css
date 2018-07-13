@@ -1,0 +1,175 @@
+/*
+* @Author: 凛冬
+* @Date:   2018-07-01
+* @Last Modified by:   凛冬
+* @Last Modified time: 2018-07-02
+*/
+html{
+	width: 1100px;
+}
+/*
+header高度根据logo决定
+*/
+#header{
+	height: 43px;
+}
+/*
+logo属性
+*/
+#logo{
+	float: left;
+	width: 177px;
+	height: 43px;
+}
+/*
+标签设置
+*/
+#label{
+	float: left;
+	font-size: 15px;
+	margin-top: 15px;
+}
+/*
+用户相关
+*/
+#user{
+	float: right;
+	font-size: 15px;
+	margin-top: 15px;
+}
+/*
+分割线属性
+*/
+.line{
+	width: 100%;
+	border-bottom: 1px solid #ccc;
+}
+/*
+banner图片属性
+*/
+#photo{
+	background-size:100% 100%;
+	max-width:100%;
+	overflow:hidden;
+	height: 120px;
+}
+/*
+正文相关
+*/
+#bd{
+	width: 100%;
+}
+/*
+左边栏新闻部分
+*/
+#bodyleft{
+	float: left;
+	width: 68.8%;
+	height: 900px;
+}
+/*
+小新闻图片
+*/
+.photos{
+	float: left;
+	width: 260px;
+	height: 170px;
+	font-size: 20px;
+}
+/*
+小新闻简介
+*/
+.message{
+	float: right;
+	width: 470px;
+}
+/*
+小新闻简介的题目
+*/
+.title{
+	text-align: center;
+	font-weight:bold;
+	font-size: 20px;
+}
+/*
+小新闻简介的正文
+*/
+.left{
+	font-size: 15px;
+}
+/*
+大新闻图片
+*/
+#bigphoto{
+	float: left;
+	width: 500px;
+	height: 330px;
+}
+/*
+大新闻题目
+*/
+#title4{
+	text-align: center;
+	font-weight:bold;
+	font-size: 20px;
+	float: right;
+	width: 240px;
+}
+/*
+大新闻正文
+*/
+#left4{
+	font-size: 15px;
+	float: right;
+	width: 240px;
+	height: 100px;
+}
+/*
+右边栏
+*/
+#bodyright{
+	float: right;
+	width: 30%;
+	height: 900px;
+}
+/*
+热门文章属性
+*/
+.hotmessage{
+	font-size: 13px;
+	color: #646464;
+}
+/*
+底栏属性
+*/
+#footer{
+	height: 100px;
+	font-size: 15px;
+	text-align: center;
+}
+/*
+注册页面
+*/
+#bdregist{
+	background-image: url('../images/background.jpg');
+	width: 1100px;
+	height: 646px;
+	height: 100%;
+}
+/*
+注册和登录部分
+*/
+#table{
+	background-color: white;
+	padding-top: 30px;
+	padding-left: 20px;
+	padding-right: 25px;
+	padding-bottom: 40px;
+	border-radius:15px;
+}
+/*
+登陆框
+*/
+#login{
+	margin-left: 500px;
+}

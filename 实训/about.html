@@ -1,0 +1,108 @@
+<!--
+* @Author: 凛冬
+* @Date:   2018-07-02
+* @Last Modified by:   凛冬
+* @Last Modified time: 2018-07-02
+-->
+<!DOCTYPE html>
+<html>
+<head>
+	<title>电动汽车资源网</title>
+	<!-- 防止乱码 -->
+	<meta charset="utf-8">
+	<!--调取logo图片-->
+	<link rel="shortcut icon" href="images/logo.ico">
+	<!-- 引入css文件 -->
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<!-- 引入js文件 -->
+	<script src="js/javascript.js"></script>
+	<!-- h5打包时自带js -->
+	<script type="text/javascript">
+		// 扩展API是否准备好，如果没有则监听“plusready"事件
+		if(window.plus)
+		{
+			plusReady();
+		}
+		else
+		{
+			document.addEventListener( "plusready", plusReady, false );
+		}
+		// 扩展API准备完成后要执行的操作
+		function plusReady()
+		{
+			var ws = plus.webview.currentWebview(); //pw回车可输出plus.webview
+			// ... code
+		}
+    </script>
+</head>
+
+<body>
+	<div id="header">
+		<div id="logo">
+			<a href="index.html"><img src="images/logo.jpg"></a>
+		</div>
+		<div id="label">
+			<!-- 使段落生出行内框，使p标签在同一行 -->
+			<p style="display:inline;">&nbsp&nbsp&nbsp&nbsp&nbsp资讯&nbsp|&nbsp政策&nbsp|&nbsp物流车&nbsp|&nbsp乘用车&nbsp|&nbsp数据&nbsp|&nbsp技术&nbsp|&nbsp论坛&nbsp|&nbsp产业 &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp<strong><span id="ShowTime"></span></strong></p>
+		</div>
+		<!--执行获取时间脚本-->
+    	<script>Times();</script>
+		<div id="user">
+		<!-- 使段落生出行内框，使p标签在同一行 -->
+		<p style="display:inline;"><a href="login.html">登录</a></p> | <p style="display:inline;"><a href="register.html">注册</a></p> | <p style="display:inline;">投稿</p>
+		</div>
+	</div>
+	<!-- 水平线分割  -->
+	<hr class="line">
+	<!-- banner  -->
+	<div id="photo">
+			<a href="index.html"><img src="images/photo1.jpg" border="0"></a>
+	</div>
+	<!-- 正文  -->
+	<div id="about">
+	<h3 align="center">公司介绍</h3>
+	&nbsp&nbsp&nbsp&nbsp深圳市中源盛科技有限公司，是电动汽车行业专业网上平台，已发展成为框架完善、信息丰富、功能强大的新能源电动汽车行业中专业、权威的电子商务、资讯、技术交流等电子商务平台。电动汽车资源网把贸易与资讯有机结合一起，整合所有相关行业资源。电动汽车资源网以“全方位电动汽车行业服务平台”为目标，为行业服务，是电动汽车行业人士最关注的新能源汽车门户网站。
+<br>
+	&nbsp&nbsp&nbsp&nbsp电动汽车资源网每日向会员提供众多的商业信息和推荐大量信用良好的资信企业，为电动汽车厂家提供参考信息，为工程采购人员设计选型提供了参考。由于独特的市场定位和深度的服务内容，网站的日访问量已达万余人次并且保持稳定的增长，已成为商家沟通、交流、发布及获取信息的重要渠道。
+<br>
+	&nbsp&nbsp&nbsp&nbsp电动汽车资源网内容以及时、全面和新鲜的行业新闻和资讯及产品为主，同时联合专业机构实时发布权威行业数据和分析报告，供业内人士参考。为行业人士提供了深入交流、学习的良好平台。
+<br>
+	&nbsp&nbsp&nbsp&nbsp电动汽车资源网具有独立的新闻采集能力，通过权威、专业、客观的报道，赢得了广大业内人士尤其是企业中高层领导以及新能源汽车技术人员的青睐和信任，独特的行业资源构成了我们得天独厚的优势。
+<br>
+	&nbsp&nbsp&nbsp&nbsp长期致力于推电动汽车行业的发展、为整车及相关配件企业提供资讯、学术、商务、展会等多项服务。网站自成立以来，已经和新能源汽车行业多个知名企业建立了长期稳定的合作关系。
+<br>
+	&nbsp&nbsp&nbsp&nbsp电动汽车资源网基本定位
+<br>
+	&nbsp&nbsp&nbsp&nbsp1、定位：
+<br>
+	&nbsp&nbsp&nbsp&nbsp为行业人士服务，做电动汽车行业人士最喜爱的专业汽车门户以及电动汽车行业细分市场的专业门户。
+<br>
+	&nbsp&nbsp&nbsp&nbsp2、受众：
+<br>
+	&nbsp&nbsp&nbsp&nbsp电动汽车资源网受众群以政府相关部门、汽车行业协会、汽车企业的中高层领导以及广大的汽车行业从业人员、咨询公司、行业管理机构工作人员和相关高等院校师生为主，同时辐射广大汽车用户。
+<br>
+	&nbsp&nbsp&nbsp&nbsp我们的优势
+<br>
+	&nbsp&nbsp&nbsp&nbsp一、强大的宣传力度
+<br>
+	&nbsp&nbsp&nbsp&nbsp电动汽车资源网采用了全方位的宣传模式，通过联合行业内的网站、杂志、展会、协会以及各大搜索引擎等等，运用了多种手段整合推广。
+<br>
+	&nbsp&nbsp&nbsp&nbsp二、信息范围广
+<br>
+	&nbsp&nbsp&nbsp&nbsp电动汽车资源网含盖了电动汽车资源行业的相关产业链的内容，同时也把其边缘产品类别也收录其中，形成了更加完整的供应链，使得厂商宣传更有针对性，实效性强。
+<br>
+	&nbsp&nbsp&nbsp&nbsp三、类别明确
+<br>
+	&nbsp&nbsp&nbsp&nbsp网站分类明确，类别完全是根据产品原理区分，更加符合技术分类，让厂商更容易对自己的广告进行定位，也方便买家查找。
+<br>
+	&nbsp&nbsp&nbsp&nbsp四、多样化服务
+<br>
+	&nbsp&nbsp&nbsp&nbsp我们通过企业、供应、求购、新闻、品牌、招标、人才、文库、应用、论坛等各大栏目为客户提供专业的服务，同时也让客户的品牌在众多的专业客户面前得以展示。我们将会把所有会员的企业信息推荐给各个买家。<br>
+	</div>
+	<!-- 底部信息  -->
+	<div id="footer">
+		<p><a href="about.html">关于我们</a> | 广告服务 | 版权声明 | 友情链接 | 法律顾问&nbsp&nbsp&nbsp&nbsp</p>
+		<p>电动汽车资源网 版权所有 Copyright By Power of China 某ICP备12345678号</p>
+	</div>
+</body>
+</html>

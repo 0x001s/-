@@ -1,0 +1,150 @@
+    #neirong{
+        width: 780px;
+        height: auto;
+        margin: 0 auto;
+    }
+    #centerLeft{
+        float: left;
+        width: auto;
+        height: auto;
+        border: 1px solid #000;
+    }
+    #centerRight{
+        float: right;
+        width: auto;
+        height: auto;
+        border:1px solid #000;
+    }
+    #leftImg1{
+        width: 200px;
+        height: 125px;
+    }
+    #leftBar{
+        width:200px;
+        height: 41px;
+        background:url(images/h1-3.gif);
+    }
+    #rightImg1{
+        width: 555px;
+        height: 108px;
+    }
+    #rightBar img{
+        display: block;
+        padding: 0;
+        margin: 0;
+        float: left;
+    }
+    #divRight{
+        clear: left;
+    }
+    #rightImg2{
+        padding-top: 6px;
+    }
+    #centerBar{
+        background: url("images/rep_right.jpg");
+        background-repeat: repeat;
+        width: 540px;
+        height: 25px;
+        float: left;
+    }
+    #rightImg3{
+        float: left;
+    }
+    #span1{
+        color: #ffffff;
+        margin-left: 40px;
+        font-weight: bold;
+        font-size: 17px;
+        line-height: 25px;
+    }
+    #rightFooter{
+        border-radius: 3px 8px 3px;
+        clear: left;
+        background: url("images/rep_4.jpg");
+        background-repeat: repeat;
+        width: 547px;
+        height: 370px;
+    }
+    #footerI{
+        width: 520px;
+        margin: 0 auto;
+        height: 350px;
+        background: #ffffff;
+        position: relative;
+        top: 12px;
+    }
+    #footerI img{
+        float: left;
+        padding: 20px;
+        padding-left: 30px;
+    }
+    #leftLi{
+        margin-top: 10px;
+        border: 1px sienna solid;
+        border-radius: 9px 9px 9px;
+    }
+    #leftI1{
+        background:url(images/h1-41.jpg) no-repeat;
+        width: 214px;
+        height: 90px;
+        float:left;
+    }
+       #leftI2{
+        background:url(images/h1-51.jpg) no-repeat;
+        width: 214px;
+        height: 90px;
+        float:left;
+    }
+       #leftI3{
+        background:url(images/h1-61.jpg) no-repeat;
+        width: 214px;
+        height: 90px;
+        float:left;
+    }
+        #leftI4{
+        background:url(images/h1-7.gif) no-repeat;
+        width: 214px;
+        height: 90px;
+        float:left;
+    }
+    #span2{
+        margin-left: 10px;
+        font-size: 20px;
+        font-weight: bold;
+        color: #ffffff;
+        line-height: 28px;
+    }
+    .divS1{
+        width: 170px;
+        border-bottom: 1px solid #000000;
+    }
+    .span3{
+        font-size: 15px;
+        font-weight: bold;
+        color: sienna;
+    }
+    #leftLiC{
+        margin-top: 15px;
+        margin-left: 12px;
+        margin-bottom: 24px;
+    }
+    #leftImgT{
+        background: url("images/ket_2.jpg");
+        width: 202px;
+        height: 29px;
+    }
+    #span4{
+        font-size: 13px;
+        padding-left: 5px;
+        line-height: 29px;
+        font-weight: bold;
+        color: #ffffff;
+    }
+    #footer{
+        position: absolute;
+        bottom: 60px;
+        clear: left;
+        background: url("images/line_3.jpg");
+        width: 757px;
+        height: 15px;
+    }

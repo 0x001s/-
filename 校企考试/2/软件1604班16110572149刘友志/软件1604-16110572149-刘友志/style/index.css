@@ -1,0 +1,51 @@
+@charset "utf-8";
+/* CSS Document */
+
+html,body{
+	width:100%;
+	height:100%;
+	margin:0px;
+	padding:0px;
+}
+
+#divHead{
+	width:100%;
+	height:503px;
+}
+#divLeftLog{
+	width:243px;
+	height:100%;
+}
+
+#divLeftLog img{
+	height:125px;
+	width:100%;
+	float:left;
+}
+#divSelect{
+	text-align:center;
+	height:52px;
+	width:243px;
+	float:left;
+}
+#divNewsArchive{
+	height:285px;
+	width:243px;
+	}
+#divNewsArchive img{
+	width:119px;
+	height:75px;
+	}
+#divMiddleLog{
+	
+	background-image:url(../images/menu_bg.gif);
+	background-repeat:no-repeat;
+	height:218px;
+	width:177px;
+	float:left;
+	}
+#divRightLog{
+	width:426px;
+	height:280px;
+	float:right;
+	background-image:url(../images/under13slarge.jpg)}

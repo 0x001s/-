@@ -1,0 +1,153 @@
+<!--
+* @Author: 凛冬
+* @Date:   2018-07-01
+* @Last Modified by:   凛冬
+* @Last Modified time: 2018-07-02
+-->
+<!DOCTYPE html>
+<html>
+<head>
+	<title>电动汽车资源网</title>
+	<!-- 防止乱码 -->
+	<meta charset="utf-8">
+	<!--调取logo图片-->
+	<link rel="shortcut icon" href="images/logo.ico">
+	<!-- 引入css文件 -->
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<!-- 引入js文件 -->
+	<script src="js/javascript.js"></script>
+	<!-- h5打包时自带js -->
+	<script type="text/javascript">
+		// 扩展API是否准备好，如果没有则监听“plusready"事件
+		if(window.plus)
+		{
+			plusReady();
+		}
+		else
+		{
+			document.addEventListener( "plusready", plusReady, false );
+		}
+		// 扩展API准备完成后要执行的操作
+		function plusReady()
+		{
+			var ws = plus.webview.currentWebview(); //pw回车可输出plus.webview
+			// ... code
+		}
+    </script>
+</head>
+
+<body>
+	<div id="header">
+		<div id="logo">
+			<a href="index.html"><img src="images/logo.jpg"></a>
+		</div>
+		<div id="label">
+			<!-- 使段落生出行内框，使p标签在同一行 -->
+			<p style="display:inline;">&nbsp&nbsp&nbsp&nbsp&nbsp资讯&nbsp|&nbsp政策&nbsp|&nbsp物流车&nbsp|&nbsp乘用车&nbsp|&nbsp数据&nbsp|&nbsp技术&nbsp|&nbsp论坛&nbsp|&nbsp产业 &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp<strong><span id="ShowTime"></span></strong></p>
+		</div>
+		<!--执行获取时间脚本-->
+    	<script>Times();</script>
+		<div id="user">
+		<!-- 使段落生出行内框，使p标签在同一行 -->
+		<p style="display:inline;"><a href="login.html">登录</a></p> | <p style="display:inline;"><a href="register.html">注册</a></p> | <p style="display:inline;">投稿</p>
+		</div>
+	</div>
+	<!-- 水平线分割  -->
+	<hr class="line">
+	<!-- banner  -->
+	<div id="photo">
+			<a href="index.html"><img src="images/photo1.jpg" border="0"></a>
+	</div>
+
+	<hr class="line">
+	<!-- 正文使用两栏样式  -->
+	<div id="bd">
+		<!-- 左边栏  -->
+		<div id="bodyleft">
+			<div class="news">
+				<!-- 大新闻（看起来  -->
+				<div id="news4">
+					<div id="bigphoto">
+						<img src="images/news4.jpg">
+					</div>
+					<br>
+					<div>
+						<span id="title4">上海闵行区开展2018年度新能源车补贴申报工作</span><br><br><br><br>
+						<span id="left4">&nbsp&nbsp&nbsp&nbsp上海闵行区发布《2018年度闵行区相关单位推广应用新能源汽车申请补贴的通知》，通知规定了汽车出租、租赁行业使用新能源汽车补贴对象为工商、税务注册在闵行区的出租、汽车租赁企业。</span>
+					</div>
+				</div>
+				<hr class="line">
+				<!-- 小新闻（看起来  -->
+				<div id="news1">
+					<div class="photos">
+						<img src="images/news1.jpg">
+					</div>
+					<br>
+					<div class="message">
+						<span class="title">重庆发布2016年度第三批新能源汽车补助公示</span><br><br>
+						<span class="left">&nbsp&nbsp&nbsp&nbsp电动汽车资源网了解到,重庆市经济和信息化委员会发布了《关于2016年度第三批新能源汽车推广应用市级财政补助资金的公示》。</span>
+					</div>
+				</div>
+				<hr class="line">
+				<!-- 小新闻（看起来  -->
+				<div id="news2">
+					<div class="photos">
+						<img src="images/news2.jpg">
+					</div>
+					<br>
+					<div class="message">
+						<span class="title">将于8月份上市 前途K50正式量产下线</span><br><br>
+						<span class="left">&nbsp&nbsp&nbsp&nbsp前途汽车旗下首款车型前途K50在前途汽车苏州生产基地正式量产下线，前途汽车董事长陆群先生表示，一个多月之后，前途K50将正式上市，也就是说这款车将会..</span>
+					</div>
+				</div>
+				<hr class="line">
+				<!-- 小新闻（看起来  -->
+				<div id="news3">
+					<div class="photos">
+						<img src="images/news3.jpg">
+					</div>
+					<br>
+					<div class="message">
+						<span class="title">一汽-大众中型SUV推插混版 明年开卖-油耗不到2L</span><br><br>
+						<span class="left">&nbsp&nbsp&nbsp&nbsp一汽-大众官方获悉，一汽—大众天津基地A-SUV插电式混合动力车型技术改造项目正在进行中。</span>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- 右边栏  -->
+		<div id="bodyright">
+			<div id="hotms">
+				<h2>| 热门文章</h2>
+				<p class="hotmessage">&nbsp&nbsp&nbsp&nbsp1、加“氢油”无需气罐 世界首台三环“新氢卡”亮相湖北全球发布</p>
+				<p class="hotmessage">&nbsp&nbsp&nbsp&nbsp2、范泛谈|中国新能源汽车产业财政补贴是蜜还是毒？！</p>
+				<p class="hotmessage">&nbsp&nbsp&nbsp&nbsp3、郑州日产全新帅客EV深圳发布，现场向终端用户交车超100辆</p>
+				<p class="hotmessage">&nbsp&nbsp&nbsp&nbsp4、发改委、商务部：取消新能源汽车外资股比限制</p>
+				<p class="hotmessage">&nbsp&nbsp&nbsp&nbsp5、资质限期不到一年 已获新能源乘用车资质车企准入进度大揭秘</p>
+				<p class="hotmessage">&nbsp&nbsp&nbsp&nbsp6、日产聆风换壳轩逸开启国产，预售16.6万要成价格屠夫</p>
+			</div>
+			<hr class="line">
+
+			<div id="hotcar">
+				<h2>| 热门车型</h2>
+				<p>1、北汽EC系列</p>
+				<p style="font-size: 10px;">&nbsp&nbsp&nbsp&nbsp4月销量：4294&nbsp&nbsp2018年累计销量：8692</p>
+				<p>2、比亚迪e5</p>
+				<p style="font-size: 10px;">&nbsp&nbsp&nbsp&nbsp4月销量：4152&nbsp&nbsp2018年累计销量：8174</p>
+				<p>3、知豆D2</p>
+				<p style="font-size: 10px;">&nbsp&nbsp&nbsp&nbsp4月销量：3799&nbsp&nbsp2018年累计销量：11259</p>
+				<p>4、奇瑞eQ</p>
+				<p style="font-size: 10px;">&nbsp&nbsp&nbsp&nbsp4月销量：3760&nbsp&nbsp2018年累计销量：5342</p>
+				<p>5、宝骏E100</p>
+				<p style="font-size: 10px;">&nbsp&nbsp&nbsp&nbsp4月销量：3518&nbsp&nbsp2018年累计销量：8771</p>
+			</div>
+		</div>
+	</div>
+	<hr class="line">
+	<!-- 底部信息  -->
+	<div id="footer">
+		<p><a href="about.html">关于我们</a> | 广告服务 | 版权声明 | 友情链接 | 法律顾问&nbsp&nbsp&nbsp&nbsp</p>
+		<p>电动汽车资源网 版权所有 Copyright By Power of China 某ICP备12345678号</p>
+	</div>
+</body>
+</html>
+<!-- 到头了  -->

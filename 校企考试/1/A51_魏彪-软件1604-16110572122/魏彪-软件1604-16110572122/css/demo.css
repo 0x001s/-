@@ -1,0 +1,68 @@
+/* CSS Document */
+*{
+	margin: 0px;
+	padding: 0px;
+}
+#container{
+	width: 780px;
+	height: 1000px;
+	margin: 0 auto;
+}
+#one{
+	
+}
+#two{
+	width: 767px;
+	height: 360px;
+
+}
+#two1{
+	float: left;
+	width: 210px;
+	height: 100%;	
+}
+#two1shang{
+	width: 210px;
+	height: 60%;
+	background-image: url("../imgs/images/h2_02.jpg");
+}
+#oo{
+	float: right;
+}
+#two1xia{
+	width: 210px;
+	height: 50%;
+	background-image: url("../imgs/images/h2_04.jpg");
+	background-repeat: no-repeat;
+}
+#two2{
+	float: left;
+	width: 380px;
+	height: 100%;
+	background-image: url("../imgs/images/H7_03.jpg");
+	background-repeat: no-repeat;
+	
+}
+#two3{
+	float: right;
+	width: 160px;
+	height: 100%;
+
+}
+
+#three img{
+  width: 763px;
+height: 50px;
+}
+#form{
+	text-align: center;
+}
+#pp{
+	width: 350px;
+	height: 90%;
+}
+#form1{
+	color: cadetblue;
+	font-weight: 400;
+}
+

@@ -1,0 +1,101 @@
+@charset "utf-8";
+/* CSS Document */
+
+#all{
+	height:768px;
+	width:1366px;
+	background:url(images/bg.jpg);
+}
+
+#all2{
+	height:100%;
+	width:766px;
+	margin-left:300px;
+}
+
+#head1{
+	height:157px;
+	width:100%;
+	background:url(images/top_home.jpg);
+}
+#head2{
+	height:611px;
+	width:100%;
+}
+#leftall{
+	height:100%;
+	width:214px;
+	float:left;
+}
+#centerall{
+	height:100%;
+	width:377px;
+	float:left;
+}
+#rightall{
+	height:100%;
+	width:175px;
+	float:right;
+}
+#left1{
+	height: 218px;
+	width: 100%;
+	background: url(images/h2_02.jpg);
+	padding-top: 5px;
+}
+#left2{
+	height:140px;
+	width:100%;
+	background:url(images/h2_04.jpg);
+}
+#left3{
+	height:221px;
+	width:100%;
+	background:url(images/h2_05.jpg);
+}
+#left4{
+	height:32px;
+	width:100%;
+	background:#FFF;
+}
+#center1{
+	height:218px;
+	width:100%;
+}
+#center1 #left{
+	height:218px;
+	width:188px;
+	background:url(images/pic1bg2.jpg);
+	float:left;
+}
+#center1 #right{
+	height:218px;
+	width:189px;
+	background:url(images/pic2bg2.jpg);
+	float:right;
+}
+#center2{
+	height:183px;
+	width:100%;
+	background:url(images/h5_07.jpg);
+}
+#center3{
+	height:178px;
+	width:100%;
+	background:url(images/h6_10.jpg);
+}
+#right1{
+	height:218px;
+	width:100%;
+	background:url(images/h4_05.jpg);
+}
+#right2{
+	height:183px;
+	width:100%;
+	background:url(images/h5_08.jpg);
+}
+#right3{
+	height:178px;
+	width:100%;
+	background:url(images/h6_11.jpg);
+}

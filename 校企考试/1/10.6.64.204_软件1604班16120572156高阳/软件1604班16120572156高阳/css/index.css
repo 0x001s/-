@@ -1,0 +1,134 @@
+@charset "utf-8";
+/* CSS Document */
+body{
+	margin:0 auto;
+	width:1000px;
+	height:736px;
+	background-image:url(../images/bg.jpg);
+	}
+*{
+	margin:0px;
+	padding:0px;
+	}
+#body{
+	margin:0 auto;
+	width:770px;
+	height:736px;
+	
+	}
+#head{
+	width:100%;
+	height:157px;
+	background-image:url(../images/top_home.jpg);
+	background-repeat:no-repeat;
+	}
+#main{
+	display:flex;
+	}
+#left{
+	width:214px;
+	height:643px;
+	
+	}
+#left1{
+	width:100%;
+	height:218px;
+	background-image:url(../images/h2_02.jpg);
+	background-repeat:no-repeat;
+	}
+#left1 span{
+	display:inline-block;
+	margin-top:30px;
+	margin-left:10px;
+	color:#6CC;
+	}
+#left1 select{
+    display:inline-block;
+	margin-top:30px;
+	margin-left:5px;
+	width:100px;
+	height:20px;	
+	}
+#left2{
+	width:100%;
+	height:140px;
+	background-image:url(../images/h2_04.jpg);
+	
+	}
+#left3{
+	width:100%;
+	height:221px;
+	background-image:url(../images/h2_05.jpg);
+	background-repeat:no-repeat;
+	
+	}
+#middle{
+	width:377px;
+	height:643px;
+	}
+#middle1{
+	width:100%;
+	height:218px;
+	}
+#pic1{
+	width:188px;
+	height:218px;
+	float:left;
+	background-image:url(../images/pic1bg2.jpg);
+	background-repeat:no-repeat;
+	}
+#pic2{
+	width:188px;
+	height:218px;
+	float:left;
+	background-image:url(../images/pic2bg2.jpg);
+	background-repeat:no-repeat;
+	}
+#middle2{
+	width:100%;
+	height:180px;
+	background-image:url(../images/H7_03.jpg);
+	background-repeat:no-repeat;
+	}
+#middle2 img{
+	margin-top:30px;
+	margin-left:20px;
+	}
+#middle3{
+	width:100%;
+	height:178px;
+	background-image:url(../images/h6_10.jpg);
+	background-repeat:no-repeat;
+	}
+#middle3 img{
+	margin-top:30px;
+	}
+#middle3 div{
+	margin-left:20px;
+	margin-right:10px;
+	float:left;
+	}
+#right{
+	width:175px;
+	height:643px;
+	
+	}
+#right1{
+	width:100%;
+	height:218px;
+	background-image:url(../images/h4_05.jpg);
+	background-repeat:no-repeat;
+	}
+
+#right2{
+	width:100%;
+	height:180px;
+	background-image:url(../images/h5_08.jpg);
+	background-repeat:no-repeat;
+	}
+#right3{
+	width:100%;
+	height:178px;
+	background-image:url(../images/h6_11.jpg);
+	background-repeat:no-repeat;
+	}

@@ -1,0 +1,251 @@
+@charset "utf-8";
+/* CSS Document */
+
+*{
+	font-size:5px;
+	font-weight: 100px;}
+#main
+{
+	width: 900px;
+	height: 100%;
+	margin: 0 auto;
+	
+}
+#header
+{
+	width:255px;
+	height: 100%;
+
+}
+#header span
+{	
+	color: rgba(252,252,252,1.00);
+}
+#head1
+{
+	width:250px;
+	height: 130px;
+	background-image:url(../images/logo.jpg);
+}
+#head1-1{
+	width:600px;
+	height:20px;
+	position:absolute;
+	margin-top:130px;
+	margin-left:130px;
+}
+#head2{
+	width:230px;
+	height:40px;
+	background-image:url(../images/tit_10.gif);
+	margin-left:10px;
+}
+#head3{
+	width:250px;
+	height:400px;
+}
+#head3-1{
+	height:80px;
+	width:250px;
+
+}
+#head3-2{
+	height:30px;
+	width:250px;
+	background-color:#9FC;
+}
+#head3-3{
+	height:20px;
+	width:250px;
+
+}
+#head3-4{
+	height:20px;
+	width:250px;
+	background-color:#9FC;
+}
+#head3-5{
+	height:20px;
+	width:250px;
+	
+}
+#head3-6{
+	height:20px;
+	width:250px;
+	background-color:#9FC;
+}
+#head3-7{
+	height:20px;
+	width:250px;
+
+}
+#head3-8{
+	height:20px;
+	width:250px;
+	background-color:#9FC;
+}
+#head3-9{
+	height:20px;
+	width:250px;
+	
+}
+#head3-10{
+	height:20px;
+	width:250px;
+	background-color:#9FC;
+}
+#head3-11{
+	height:20px;
+	width:250px;
+
+}
+#head3-12{
+	height:20px;
+	width:250px;
+	background-color:#9FC;
+}
+#head3-13{
+	height:20px;
+	width:250px;
+	
+}
+#head3-14{
+	height:20px;
+	width:250px;
+	background-color:#9FC;
+}
+#head3-15{
+	height:20px;
+	width:250px;
+
+}
+#head3-16{
+	height:20px;
+	width:250px;
+	background-color:#9FC;
+}
+#head4{
+	width:230px;
+	height:40px;
+	margin-left:10px;
+	background-image:url(../images/tit_11.gif);
+}
+#head5{
+	width:230px;
+	height:130px;
+	margin-left:10px;
+	
+}
+#head5-1{
+	width:130px;
+	height:30px;
+	margin-left:50px;
+	position:absolute;
+	margin-top:800px;
+}
+
+#body{
+	width:600px;
+	height:220px;
+	margin-left:260px;
+	margin-top:-730px;
+	float:left;
+	
+}
+#body1{
+	width:180px;
+	height:220px;
+	margin-left:2px;
+	margin-top:2px;
+	float:left;
+
+	background-image:url(../images/menu_bg.gif);
+}
+#body1-1{
+	width:75px;
+	height:25px;
+	margin-left:10px;
+	margin-top:10px;
+	float:left;
+	background-image:url(../images/but_1.gif);
+}
+#body1-2{
+	width:98px;
+	height:25px;
+	margin-left:10px;
+	margin-top:15px;
+	float:left;
+
+	background-image:url(../images/but_2.gif);
+}
+#body1-3{
+	width:136px;
+	height:25px;
+	margin-left:10px;
+	margin-top:15px;
+	float:left;
+
+	background-image:url(../images/but_3.gif);
+}
+#body1-4{
+	width:96px;
+	height:25px;
+	margin-left:10px;
+	margin-top:18px;
+	float:left;
+
+	background-image:url(../images/but_4.gif);
+}
+#body1-5{
+	width:83px;
+	height:25px;
+	margin-left:10px;
+	margin-top:18px;
+	float:left;
+
+	background-image:url(../images/but_5.gif);
+}
+#body2{
+	width:430px;
+	height:220px;
+	margin-left:180px;
+	margin-top:-220px;
+	float:left;
+
+	background-image:url(../images/under14slarge.jpg)
+}
+#html{
+	width:600px;
+	height:500px;
+	margin-left:260px;
+	margin-top:-505px;
+	float:left;
+
+}
+#html1-1{
+	width:300px;
+	height:500px;
+	margin-left:2px;
+	margin-top:2px;
+	float:left;
+}
+#html1-1-1{
+	width:230px;
+	height:40px;
+	margin-left:25px;
+	background-image:url(../images/tit_12.gif);
+}
+#html1-2{
+	width:300px;
+	height:500px;
+	margin-left:300px;
+	margin-top:-40px;
+	float:left;
+}
+#html1-2-1{
+	width:230px;
+	height:40px;
+	margin-left:25px;
+	background-image:url(../images/tit_13.gif);
+}
+

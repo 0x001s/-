@@ -1,0 +1,55 @@
+@charset "utf-8";
+/* CSS Document */
+#head{
+	width:766px;
+	height:157px;
+	/*background-image:url(../images/head.jpg);*/
+	background-repeat:no-repeat;
+	/*
+	text-align:center;*/
+	margin:auto;
+	}
+#bodyx{
+	width:766px;
+	margin:auto;
+	}
+#bodyxleft{
+	width:214px;
+	}
+#bodyxleft1{
+	height:241px;
+	}
+#bodyxleft1bg{
+	height:218px;
+	background-image:url(../images/lef11.jpg);
+	background-repeat:no-repeat;
+	}
+#bodyxleft11{
+	color:#FFF;
+	padding-left:40px;
+	padding-top:5px;
+	}
+##bodyxleft12{
+	padding-top:5px;
+	margin:auto;
+	text-align:center;
+	}
+	
+#bodyxleft2{
+	height:200px;
+	}
+#bodyxleft2bg{
+	height:140px;
+	background-image: url(../images/lef21.jpg);
+	background-repeat:no-repeat;
+	}
+#bodyxleft22{
+	color:#FFF;
+	padding-left:40px;
+	padding-top:5px;
+	}
+##bodyxleft212{
+	padding-top:5px;
+	margin:auto;
+	text-align:center;
+	}

@@ -1,0 +1,129 @@
+@charset "utf-8";
+/* CSS Document */
+
+body,html
+{
+	width:100%;
+	height:100%;
+	margin:0px;
+	padding:0px;
+}
+.B
+{
+	width:800px;
+	height:590Px;
+	border:#00F 1px solid;
+	margin:0 auto;
+	}
+.B1
+{
+	width:243px;
+	height:590px;
+	border:#00F 1px solid;
+	float:left;
+	}
+.B12
+{
+	width:243px;
+	height:125px;
+	background-image:url(images/logo.jpg);
+	}
+.B13
+{
+	height:41px;
+	width:222px;
+	background-image:url(images/tit_17.gif);
+	margin-left:3px;}
+.B14
+{
+	width:240px;
+	height:400px;
+	border:1px #FF0000 solid;
+	margin-left:1px;
+	}
+.B15
+{
+	width:240px;
+	height:78px;
+	border:1px #0066FF solid;
+	margin-left:3px;
+	margin-top:25px;
+}
+.B151
+{
+	width:119px;
+	height:75px;
+	background-image:url(images/under14s.gif);
+	margin-left:2px;
+	float:left;
+}
+.B153
+{
+	width:119px;
+	height:75px;
+	background-image:url(images/under13s.gif);
+	margin-left:2px;
+	float:left;
+}
+.B154
+{
+	width:119px;
+	height:75px;
+	background-image:url(images/under9s.gif);
+	margin-left:2px;
+	float:left;
+}
+.B16{
+	width:240px;
+	height:100px;
+	margin-left:3px;
+	border:1px solid #FF0;
+	}
+.B152
+{
+	width:100px;
+	height:76px;
+	border:#F90 1px solid;
+	float:right;
+	}
+
+
+.B2
+{
+	width:527px; 
+	height:218px;
+	border:#00F 1px solid;
+	float:left;
+	margin-left:2px;
+	}
+.B21
+{
+	width:177px;
+	height:218px;
+	background-image:url(images/menu_bg.gif);
+	float:left;
+	}
+.B22
+{
+	width:348px;
+	height:218px;
+	background-image:url(images/under14s.jpg);
+	float:left;
+	}
+.B3
+{
+	width:520px;
+	height:165px;
+	border:1px #00FFFF solid;
+	float:left;
+	margin-top:3px;
+	
+	}
+.Foot
+{
+	width:800px;
+	height:100px;
+	border:1px solid #FF9;
+	background-color:#F63;
+	margin:0 auto;
+	}

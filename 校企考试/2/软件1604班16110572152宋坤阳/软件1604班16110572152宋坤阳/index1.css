@@ -1,0 +1,221 @@
+/* CSS Document */
+@charset"utf-8"；
+html,body{
+	width: 100%;
+	height: 100%;
+	margin: 0px;
+	padding: 0px;
+	
+}
+#zong{
+	width:800px;
+	margin-left:0;
+	margin-right:0;
+}
+#divHeadyou{
+	width:525px;
+	float:right;
+}
+#divY1{
+	width:525px;
+	float:right;
+}
+#divY11{
+	width:348px;
+	height:218px;
+	float:right;
+	background-image:url(images/under14s.jpg);
+}
+#divY12{
+	width:177px;
+	height:218px;
+	float:right;
+	background-image:url(images/menu_bg.gif);
+	background-repeat:no-repeat;
+}
+#divY2{
+	width:499px;
+	height:41px;
+	float:right;
+	margin-right:13px;
+	background-image:url(images/tit_18.gif);
+	background-repeat:no-repeat;
+}
+#divY3{
+	width:525px;
+	float:right;
+	height:80px;
+}
+	
+#divY31{
+	width:52px;
+	height:80px;
+	float:right;
+	margin-right:25px;
+	background-image:url(images/gallery1.gif);
+	background-repeat:no-repeat;
+}
+#divY32{
+	width:53px;
+	height:80px;
+	float:right;
+	margin-right:50px;
+	background-image:url(images/gallery2.gif);
+	background-repeat:no-repeat;
+}
+#divY33{
+	width:53px;
+	height:80px;
+	float:right;
+	margin-right:50px;
+	background-image:url(images/gallery3.gif);
+	background-repeat:no-repeat;
+}
+#divY34{
+	width:53px;
+	height:80px;
+	float:right;
+	margin-right:50px;
+	background-image:url(images/gallery4.gif);
+	background-repeat:no-repeat;
+}
+#divY35{
+	width:52px;
+	height:80px;
+	float:right;
+	margin-right:50px;
+	background-image:url(images/gallery5.gif);
+	background-repeat:no-repeat;
+}
+#divY4{
+	width:525px;
+	float:right;
+}
+.hr{
+	width:99px;
+    height:1px;
+    float:right;
+}
+#divY411{
+	width:99px;
+	height:15px;
+	float:right;
+	margin-right:10px;
+	background-image:url(images/pickpic.gif);
+	background-repeat:no-repeat;
+}
+#divY41{
+	width:99px;
+	height:15px;
+	float:right;
+	background-image:url(images/pickpic.gif);
+	background-repeat:no-repeat;
+}
+#divY36{
+	width:52px;
+	height:80px;
+	float:right;
+	margin-right:330px;
+	background-image:url(images/gallery6.gif);
+	background-repeat:no-repeat;
+}
+#divY37{
+	width:53px;
+	height:80px;
+	float:right;
+	margin-right:50px;
+	background-image:url(images/gallery7.gif);
+	background-repeat:no-repeat;
+}
+#divY5{
+	width:525px;
+	height:70px;
+	float:right;
+}
+#divY51{
+	width:99px;
+	height:15px;
+	float:right;
+}
+#divY511{
+	width:99px;
+	height:15px;
+	float:right;
+	margin-right:10px;
+}
+#divHeadzuo{
+	width:243px;
+	float:left;
+}
+#divZ1{
+	width:243px;
+	height:125px;
+	float:left;
+	background-image:url(images/logo.jpg);
+	background-repeat:no-repeat;
+}
+#divZ2{
+	width:222px;
+	height:41px;
+	float:left;
+	margin-left:10px;
+	background-image:url(images/tit_17.gif);
+	background-repeat:no-repeat;
+}
+#divZ3{
+	width:243px;
+	float:left;
+}
+#divZ31{
+	width:119px;
+	height:75px;
+	float:left;
+	margin-left:10px;
+	background-image:url(images/under9s.gif);
+	background-repeat:no-repeat;
+}
+#divZ32{
+	width:100px;
+	height:75px;
+	float:left;
+}
+#divZ4{
+	width:243px;
+	float:left;
+}
+#divZ41{
+	width:119px;
+	height:75px;
+	float:left;
+	margin-left:10px;
+	background-image:url(images/under13s.gif);
+	background-repeat:no-repeat;
+}
+#divZ42{
+	width:100px;
+	height:75px;
+	float:left;
+}
+#divZ5{
+	width:243px;
+	float:left;
+}
+#divZ51{
+	width:119px;
+	height:75px;
+	float:left;
+	margin-left:10px;
+	background-image:url(images/under14s.gif);
+	background-repeat:no-repeat;
+}
+#divZ52{
+	width:100px;
+	height:75px;
+	float:left;
+}
+#divZ6{
+	width:243px;
+	height:200px;
+	float:left;
+	text-align:center;
+}

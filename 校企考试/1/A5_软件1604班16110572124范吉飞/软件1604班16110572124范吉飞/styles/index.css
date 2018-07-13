@@ -1,0 +1,106 @@
+@charset "utf-8";
+/* CSS Document */
+#divAll{
+   width:766px;
+   height:100%;
+   margin:0 auto;
+   border:1px solid black;
+}
+#divH1{
+   width:100%;
+   height:157px;
+   background-image:url(../images/H1_1.jpg); 
+}
+#divH2{
+	width:766px;
+}
+#divH21{
+   float:left;
+   width:214px;
+}
+#divH211{
+    width:214px;
+	height:218px;
+	background-image:url(../images/H2_1.jpg);
+	font-size:12px;
+}
+#H1{
+    padding-left:38px;
+	padding-top:6px;
+}
+#H2{
+    padding-top:6px;
+	padding-left:10px;
+}
+#H3{
+    padding-top:6px;
+	padding-left:10px;
+}
+#H4{
+    padding-top:6px;
+	padding-left:10px;
+}
+#H5{
+    padding-top:6px;
+	padding-left:10px;
+}
+#H51{
+	float:right;
+	padding-right:20px;
+}
+
+#H6{
+    padding-left:38px;
+	padding-top:6px;
+}
+#divH212{
+    width:214px;
+	height:140px;
+	background-image:url(../images/H2_2.jpg);
+	font-size:12px;
+}
+#H7{
+    padding-top:4px;
+}
+#H9{
+    text-align:center;
+	padding-top:4px;
+}
+#H10{
+    float:right;
+	padding-right:20px;
+}
+#divH212 input{
+   height:20px;
+}
+#divH211 select te{
+   witdh:20px;
+}
+#divH213{
+  width:100%;
+  background-image:url(../images/H21_4.jpg)
+}
+#divH22{
+	width:368px;
+	height:364px;
+	background-image:url(../images/H2_3.jpg);
+	float:left;
+}
+#divH221{
+    padding-left:45px;
+	padding-top:5px;
+}
+#M1{
+    padding-left:20px;
+	padding-top:10px;
+}
+#M2{
+    padding-left:20px;
+	padding-top:5px;
+}
+#divH23{
+	width:50px;
+	heigth:364px;
+	float:right;
+	border:1px solid balck;
+}

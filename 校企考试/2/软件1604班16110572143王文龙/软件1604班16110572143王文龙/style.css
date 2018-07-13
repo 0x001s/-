@@ -1,0 +1,83 @@
+@charset "utf-8";
+/* CSS Document */
+body
+{
+	color:#030;
+		font-size:16px;
+	}
+	.x
+{
+	margin:auto;
+	width:1000px;
+	height:800px;
+	}
+	#x1
+{
+	width:243px;
+	height:700px;
+	}
+	#x2
+{
+	width:700px;
+	height:700px;
+	}
+	#x3
+{
+	width:1000px;
+	height:100px;
+	}
+	#x11
+{
+	width:243px;
+	height:125px;
+	}
+	#x12
+{
+	width:243px;
+	height:20px;
+	}
+    #x13
+{
+	width:243px;
+	height:40px;
+	}
+	 #x14
+{
+	width:243px;
+	height:100px;
+	}
+	 #x141
+{
+	width:119px;
+	height:100px;
+	}
+	 #x142
+{
+	width:100px;
+	height:100px;
+	}
+	 #x15
+{
+	color:#F00;
+	width:243px;
+	height:150px;
+	margin:auto;/*居中*/	
+	}
+	 #x21
+{
+	width:757px;
+	height:250px;
+	float:right;
+	}
+	#x211
+{
+	width:500px;
+	height:250px;
+	float:right;
+	}
+	#x212
+{
+	width:250px;
+	height:250px;
+	float:right;
+	}

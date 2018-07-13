@@ -1,0 +1,176 @@
+@charset "utf-8";
+/* CSS Document */
+
+*{
+	font-size:20px;
+	color:#FFF;
+}
+html,body{
+	width:766px;
+	height:100%;
+	
+}
+#head
+{
+	width:766px;
+	height:156px;
+	background-image:url(images/top_success.jpg);
+	
+}
+#mid1
+{
+	width:766px;
+	height:218px;
+	
+}
+#mid11
+{
+	width:214px;
+	height:218px;
+	background-image:url(images/h2_02.jpg);
+	float:left;
+}
+#mid11z
+{
+	margin-left:40px;
+	margin-top:5px;
+}
+#mid14z
+{
+	margin-left:40px;
+	margin-top:5px;
+}
+#mid21z
+{
+	margin-left:40px;
+	margin-top:5px;
+}
+#mid22z
+{
+	margin-left:60px;
+	margin-top:5px;
+}
+#mid23z
+{
+	margin-left:40px;
+	margin-top:5px;
+}
+#mid12
+{
+	width:188px;
+	height:218px;
+	background-image:url(images/pic1bg2.jpg);
+	float:left;
+}
+#mid13
+{
+	width:188px;
+	height:218px;
+	background-image:url(images/pic2bg2.jpg);
+	float:left;
+}
+#mid14
+{
+	width:175px;
+	height:218px;
+	background-image:url(images/h4_05.jpg);
+	float:left;
+}
+#mid141
+{
+	width:175px;
+	height:124px;
+	background-image:url(images/pic3.jpg);
+	float:left;
+	margin-top:94px;
+}
+#mid2
+{
+	width:766px;
+	height:364px;
+	
+}
+#mid21
+{
+	width:214px;
+	height:100%;
+	background-image:url(images/h2_04.jpg);
+	float:left;
+	background-repeat:no-repeat;
+}
+#mid211
+{
+	width:214px;
+	height:221px;
+	background-image:url(images/h2_05.jpg);
+	float:left;
+	margin-top:140px;
+}
+#mid22
+{
+	width:368px;
+	height:364px;
+	background-image:url(images/H7_03.jpg);
+	float:left;
+}
+#mid221
+{
+	width:109px;
+	height:148px;
+	background-image:url(images/pic4.jpg);
+	float:left;
+	margin-top:30px;
+	margin-left:30px;
+}
+#mid222
+{
+	width:368px;
+	height:364px;
+	background-image:url(images/h9_03.jpg);
+	margin-top:178px;
+}
+#mid2221
+{
+	width:106px;
+	height:77px;
+	background-image:url(images/pic7.jpg);
+	float:left;
+	margin-top:30px;
+	margin-left:30px;
+}
+#mid2222
+{
+	width:106px;
+	height:77px;
+	background-image:url(images/pic8.jpg);
+	float:left;
+	margin-top:30px;
+	margin-left:10px;
+}
+#mid2223
+{
+	width:106px;
+	height:77px;
+	background-image:url(images/pic9.jpg);
+	float:left;
+	margin-top:30px;
+	margin-left:10px;
+}
+#mid23
+{
+	width:175px;
+	height:364px;
+	background-image:url(images/h5_08.jpg);
+	float:right;
+	background-repeat:no-repeat;
+	
+}
+#mid231
+{
+	width:175px;
+	height:178px;
+	background-image:url(images/h6_11.jpg);
+	float:right;
+	margin-top:183px;
+	
+}

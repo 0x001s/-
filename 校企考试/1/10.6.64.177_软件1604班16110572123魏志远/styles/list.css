@@ -1,0 +1,60 @@
+@charset "utf-8";
+/* CSS Document */
+html,body{
+	width:100%;
+	height:100%;
+	margin:0px;
+	padding:0px;
+}
+.divMain{
+	width:766px;
+	margin:0 auto;
+}
+.divHead{
+	width:100%;
+	height:157px;
+	background-image:url(../images/head1.jpg);
+}
+.divBody{
+	width:100%;
+	height:583px;
+}
+.divBL{
+	width:214px;
+	float:left;
+}
+.divBL1{
+	width:100%;
+	height:218px;
+	background-image:url(../images/divBL1.jpg);
+}
+/*.divBL1Head{
+	color:#FFF;
+	font-size:15px;
+	font-weight:800;
+	margin-left:45px;
+	padding-top:5px;
+}*/
+.divBL2{
+	width:100%;
+	height:140px;
+	background-image:url(../images/divBL2.jpg);
+}
+.divBR{
+	width:552px;
+	height:364px;
+	float:left;
+}
+.divBRL{
+	width:368px;
+	height:100%;
+	float:left;
+	background-image:url(../images/divBRL.jpg);
+}
+
+.divBRR{
+	width:184px;
+	height:100%;
+	float:left;
+	background-image:url(../images/divBRR.jpg);
+}

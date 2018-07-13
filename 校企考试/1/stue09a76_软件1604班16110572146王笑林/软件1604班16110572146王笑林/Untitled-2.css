@@ -1,0 +1,134 @@
+@charset "utf-8";
+/* CSS Document */
+#quan
+{
+	width:766px;
+	height:754px;
+	border:1px solid #0FF;
+}
+#head
+{
+	width:770x;
+	height:150px;
+	border:1px solid #0FF;
+	
+}
+#zhongbu
+{
+	width:770px;
+	height:600px;
+	border:1px solid #0FF;
+}
+#zhongbu1
+{
+	width:216px;
+	height:600px;
+	float:left;
+	
+}
+#zhongbu11
+{
+	width:216px;
+	height:218px;
+	background-image:url(images/h2_02.jpg);
+}
+
+#zhongbu12
+{
+	width:216px;
+	height:140px;
+	background-image:url(images/h2_04.jpg);
+}
+#zhongbu121
+{
+	width:216px;
+	height:110px;
+	margin-top:30px;
+}
+#zhongbu13
+{
+	width:216px;
+	height:221px;
+	background-image:url(images/h2_05.jpg);
+}
+#zhongbu2
+{
+	width:373px;
+	height:600px;
+	float:left;
+}
+#zhongbu21
+{
+	width:180px;
+	height:220px;
+	background-image:url(images/pic1bg2.jpg);
+	float:left;
+}
+#zhongbu22
+{
+	width:190px;
+	height:220px;
+	background-image:url(images/pic2bg2.jpg);
+	float:right;
+}
+
+#zhongbu23
+{
+	width:378px;
+	height:184px;
+	background-image:url(images/h5_07.jpg);
+	float:left;
+}
+#zhongbu231
+{
+	width:376px;
+	height:150px;
+	margin-top:30px;
+}
+#zhongbu241
+{
+	width:370px;
+	height:140px;
+	margin-top:30px;
+}
+	
+#zhongbu24
+{
+	width:378px;
+	height:180px;
+	background-image:url(images/h6_10.jpg);
+	float:left;
+}
+
+#zhongbu3
+{
+	width:177px;
+	height:600px;
+	float:right;
+}
+#zhongbu31
+{
+	width:175px;
+	height:220px;
+	background-image:url(images/h4_05.jpg);
+}
+#
+#zhongbu32
+{
+	width:175px;
+	height:185px;
+	background-image:url(images/h5_08.jpg);
+}
+#zhongbu33
+{
+	width:175px;
+	height:180px;
+	background-image:url(images/h6_11.jpg);
+}
+#zhongbu331
+{
+	width:173px;
+	height:64x;
+	margin-top:30px;
+}
+

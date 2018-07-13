@@ -1,0 +1,35 @@
+@charset "utf-8";
+#all{
+	margin:auto;
+	}
+#middle_head{
+ margin:-580px 0 0 220px;	
+	}
+#middle_head1{
+ margin:-220px 0 0 420px;	
+	}
+#middle_body{
+ margin:0 0 0 230px;	
+	}
+#middlr_body1{
+ margin:-150px 0 0 240px;		
+		}
+#middle_foot{
+ margin:0 0 0 230px;		
+		}
+#middle_foot1{
+	margin:-330px 0 0 240px;		
+	}
+#middle_foot2{
+	margin:-80px 0 0 360px;		
+	}
+#middle_foot3{
+	margin:-80px 0 0 480px;		
+	}
+#right_head1{
+ margin:-535px 0 0 590px;	
+	}
+#right-head2{
+ margin:-120px 0 0 590px;			
+		}
+#right_body1{margin: 0 0 0 600px;}

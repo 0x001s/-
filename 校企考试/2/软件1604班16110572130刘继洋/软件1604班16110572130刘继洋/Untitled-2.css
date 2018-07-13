@@ -1,0 +1,63 @@
+@charset "utf-8";
+/* CSS Document */
+*{
+	font-size:30px;
+}
+html,body{
+	width:768px;
+	height:100%;
+	margin:auto;
+	padding:0px;
+}
+#header{
+	height:218px;
+	width:100%;
+}
+#header1{
+	width:243px;
+	height:100%;
+	float:left;
+}
+#header2{
+	width:177px;
+	height:100%;
+	background-image:url(images/hd2.gif);
+	float:left;
+}
+#header21,#header22,#header23,#header24,#header25{
+	width:100%;
+	height:20%;
+}
+#header3{
+	width:348px;
+	height:100%;
+	background-image:url(images/hd3.jpg);
+	float:right;
+}
+#condem{
+	width:100%;
+	height:600px;
+}
+#condem1{
+	width:33%;
+	height:100%;
+	float:left;
+}
+#condem11{
+	width:100%;
+	height:50%;
+}
+#condem12{
+	width:100%;
+	height:50%;
+}
+#condem2{
+	width:33%;
+	height:100%;
+	float:left;
+}
+#condem3{
+	width:34%;
+	height:100%;
+	float:right;
+}

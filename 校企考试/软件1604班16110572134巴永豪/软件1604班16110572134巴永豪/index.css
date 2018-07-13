@@ -1,0 +1,59 @@
+/*
+* @Author: 凛冬
+* @Date:   2018-07-09
+* @Last Modified by:   凛冬
+* @Last Modified time: 2018-07-09
+*/
+html{
+	width: 770px;
+}
+body{
+	width: 770px;
+}
+#body{
+	width: 770px;
+	height: 680px;
+}
+.left{
+	float: left;
+	width: 250px;
+	height: 680px;
+}
+#select{
+	margin-left: 30px;
+}
+.hr{
+	height: 680px;
+	width: 3px;
+}
+.middle-head{
+	float: left;
+	width: 68%;
+	width: 500px;
+}
+#left{
+	width: 150px;
+	height: 218px;
+	float: left;
+	/*background-size: 10px;*/
+	background-image:url( images/icon-bg.gif);
+}
+#right{
+	float: left;
+}
+.gallery{
+	float: left;
+	width: 100px;
+	height: 160px;
+}
+#down{
+	float: left;
+	width: 68%;
+	width: 500px;
+	height: 458px;
+}
+#footer{
+	position:absolute;
+	height: 685px;
+	left: 10px;
+}

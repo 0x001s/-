@@ -1,0 +1,68 @@
+@charset "utf-8";
+/* CSS Document */
+html,body{
+	width:100%;
+	height:100%;
+	margin:0px;
+	padding:0px;
+}
+#divHead{
+	width:766px;
+	height:100%;
+}
+#divH1{
+	width:766px;
+	height:157px;
+	background-image:url(images/1-h1.jpg);
+	background-repeat:no-repeat;
+}
+#divH2{
+	width:214px;
+	height:364px;
+	float:left;
+}
+#divH2-01{
+	width:214px;
+	height:218px;
+	background-image:url(images/1-h2_01.jpg);
+}
+#divH2-02{
+	width:214px;
+	height:140px;
+	background-image:url(images/1-h2_02.jpg);
+}
+#divH3{
+	width:552px;
+	height:364px;
+	float:right;
+	margin:0px;
+	padding:0px;
+}
+#divH3-01{
+	width:368;
+	height:364px;
+	float:left;
+	background-image:url(images/1-h3.jpg);
+	background-repeat:no-repeat;
+	
+}
+#divH3-02{
+	width:184px;
+	height:364px;
+	float:right;
+	margin:0px;
+	padding:0px;
+	background-image:url(images/1-h4.jpg);
+}
+
+#divH5{
+	width:766px;
+	height:200px;
+	float:left;
+	margin:0px;
+	padding:0px;
+	background-image:url(images/1-h5.jpg);
+	background-repeat:no-repeat;
+}
+	
+	

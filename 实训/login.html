@@ -1,0 +1,79 @@
+<!--
+* @Author: 凛冬
+* @Date:   2018-07-01
+* @Last Modified by:   凛冬
+* @Last Modified time: 2018-07-02
+-->
+<!DOCTYPE html>
+<html>
+<head>
+	<title>会员登录-电动汽车资源网</title>
+	<!-- 防止乱码 -->
+	<meta charset="utf-8">
+	<!--调取logo图片-->
+	<link rel="shortcut icon" href="images/logo.ico">
+	<!-- 引入css文件 -->
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<!-- 引入js文件 -->
+	<script src="js/javascript.js"></script>
+</head>
+<body>
+	<div id="header">
+		<div id="logo">
+			<a href="index.html"><img src="images/logo.jpg"></a>
+		</div>
+		<div id="label">
+			<!-- 使段落生出行内框，使p标签在同一行 -->
+			<p style="display:inline;">&nbsp&nbsp&nbsp&nbsp&nbsp资讯&nbsp|&nbsp政策&nbsp|&nbsp物流车&nbsp|&nbsp乘用车&nbsp|&nbsp数据&nbsp|&nbsp技术&nbsp|&nbsp论坛&nbsp|&nbsp产业 &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp<strong><span id="ShowTime"></span></strong></p>
+		</div>
+		<!--执行获取时间脚本-->
+    	<script>Times();</script>
+		<div id="user">
+		<!-- 使段落生出行内框，使p标签在同一行 -->
+		<p style="display:inline;"><a href="login.html">登录</a></p> | <p style="display:inline;"><a href="register.html">注册</a></p> | <p style="display:inline;">投稿</p>
+		</div>
+	</div>
+	<!-- 水平线分割  -->
+	<hr class="line">
+	<!-- 正文 -->
+	<div id="bdregist">
+		<div id="login">
+		<br><br><br><br><br><br><br>
+        <table id="table">
+            <tr class="form">
+                <td>用户名：</td>
+                <td>
+                	<input type="text" id="ue" placeholder="请输入用户名" />
+                </td>
+            </tr>
+            <tr class="form">
+                <td>密码：</td>
+                <td>
+                    <input type="password" id="p1" placeholder="请输入密码"/>
+                </td>
+            </tr>
+            <tr class="form">
+                <td>验证码：</td>
+                <td>
+                	<input type="text" id="code" placeholder="请输入验证码" onblur="CheckCode();"/>
+                	<span id="er" style="color: red;text-align: center;display: none;">*验证码必须为4位*</span>
+                </td>
+            </tr>
+            <tr></tr>
+            <tr>
+                <td colspan="2" align="center">
+                        <input type="submit" value="登录" onclick="Login();" />
+                </td>
+            </tr>
+        </table>
+        <br><br><br><br><br><br><br><br><br>
+		</div>
+	</div>
+	<hr class="line">
+	<!-- 底部信息  -->
+	<div id="footer">
+		<p><a href="about.html">关于我们</a> | 广告服务 | 版权声明 | 友情链接 | 法律顾问&nbsp&nbsp&nbsp&nbsp</p>
+		<p>电动汽车资源网 版权所有 Copyright By Power of China 某ICP备12345678号</p>
+	</div>
+</body>
+</html>

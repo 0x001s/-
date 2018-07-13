@@ -1,0 +1,45 @@
+.all{
+	width:766px;
+	height:600px;
+	margin:0 auto;
+	}
+img{
+	display:block;
+	}
+.top{
+	height:157px;
+	}
+.main{
+	height:368px;
+	}
+.left{
+	weight:214px;
+	height:368px;
+	float:left;
+	}
+.left1{
+	weight:214px;
+	height:218px;
+	background:url(../images/h2_02.jpg) no-repeat;
+	}
+.left2{
+	weight:214px;
+	height:150px;
+	background:url(../images/h8_02.jpg) no-repeat;
+	}
+.m{
+	width:377px;
+	height:368px;
+	margin:2px;
+	background:url(../images/m.jpg) no-repeat;
+	float:left;
+	}
+.right{
+	width:50px;
+	height:368px;
+	float:left;
+	}
+.bottom{
+	background:url(../images/bottom.jpg) no-repeat;
+	}
+

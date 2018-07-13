@@ -1,0 +1,165 @@
+@charset "utf-8";
+/* CSS Document */
+#test{
+	width:800px;
+	margin:0 auto;
+}
+#left{
+	width:243px;	
+	float:left;
+}
+#left1{
+	width:243px;
+	height:125px;
+	background-image:url(../images/logo.jpg);
+}
+#left2{
+	margin-left:40px;
+}
+#left3{
+	width:222px;
+	height:41px;
+	margin-left:17px;
+	background-image:url(../images/leftpic1.gif);
+}
+#left4{
+	width:243px;
+	height:75px;	
+	margin-left:17px;
+	margin-top:15px;
+}
+#left41{
+	width:119px;
+	height:75px;
+	background-image:url(../images/leftpic2.gif);	
+	float:left;
+}
+#left42{
+	float:left;
+	width:124px;
+	height:75px;
+}
+#left42_1{
+	margin-left:10px;
+	font-weight:bolder;
+	margin-bottom:8px;
+}
+#left42_2{
+	margin-left:10px;
+	font-weight:bolder;
+	margin-bottom:13px;
+}
+#left42_3{
+	font-size:2px;
+}
+#left5{
+	width:243px;
+	height:75px;	
+	margin-left:17px;
+	margin-top:15px;
+}
+#left51{
+	width:119px;
+	height:75px;
+	background-image:url(../images/leftpic3.gif);	
+	float:left;
+}
+#left52{
+	float:left;
+	width:124px;
+	height:75px;
+}
+#left52_1{
+	margin-left:10px;
+	font-weight:bolder;
+	margin-bottom:8px;
+}
+#left52_2{
+	margin-left:10px;
+	font-weight:bolder;
+	margin-bottom:13px;
+}
+#left52_3{
+	font-size:2px;
+}
+#left6{
+	width:243px;
+	height:75px;	
+	margin-left:17px;
+	margin-top:15px;
+}
+#left61{
+	width:119px;
+	height:75px;
+	background-image:url(../images/leftpic4.gif);	
+	float:left;
+}
+#left62{
+	float:left;
+	width:124px;
+	height:75px;
+}
+#left62_1{
+	margin-left:10px;
+	font-weight:bolder;
+	margin-bottom:13px;
+}
+#left62_2{
+	margin-left:10px;
+	font-weight:bolder;
+	margin-bottom:8px;
+}
+#left62_3{
+	font-size:2px;
+}
+#left7{
+	width:243px;
+	height:90px;	
+	margin-left:17px;
+}
+#left71{
+	color:red;
+	font-weight:bolder;
+	font-size:22px;
+	text-align:center;
+	margin-top:20px;
+}
+#left72{
+	color:red;
+	font-weight:bolder;
+	font-size:22px;
+	text-align:center;
+}
+#left8{
+	width:243px;
+	height:10px;
+	margin-left:17px;
+	background-image:url(../images/leftpic5.gif);
+}
+#center{
+	width:5px;
+	height:560px;
+	float:left;
+	margin-left:20px;
+	background-image:url(../images/leftpic5.gif);
+}
+#right{
+	width:525px;
+	float:left;	
+}
+#right1{
+	width:525px;	
+}
+#right11{
+	width:177px;	
+	height:218px;
+	float:left;
+	background-image:url(../images/rightpic11.gif);
+}
+#right12{
+	width:348px;
+	height:218px;
+	float:left;
+	background-image:url(../images/rightpic12.jpg);
+}
+

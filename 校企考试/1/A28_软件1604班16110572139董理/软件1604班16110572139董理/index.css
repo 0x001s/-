@@ -1,0 +1,88 @@
+@charset "utf-8";
+/* CSS Document */
+#divAll{
+	width:1368px;
+	height:768px;
+}
+#divLift{
+	width:300px;
+	height:768px;
+	float:left;
+	background-image:url(images/bg1.jpg)
+}
+#divBB{
+	width:766px;
+	height:768px;
+	border:1px solid ;
+	float:left;
+}
+#divRight{
+	width:300px;
+	height:768px;
+	float:left;
+		background-image:url(images/bg1.jpg)
+}
+#divHead{
+	width:766px;
+	height:157px;
+	background-image:url(images/top_success.jpg)
+}
+#divLine{
+	height:2px;
+	width:214px;
+	background-image:url(images/bg1.jpg);
+}
+#divBody{
+	width:766px;
+	height:358px;
+}
+#divB1{
+
+	width:214px;
+	height:358px;
+	float:left;
+}
+#divB11{
+	background-image:url(images/h2_02.jpg);
+	width:214px;
+	height:218px;
+}
+#divB12{
+	background-image:url(images/h2_04.jpg);
+	width:214px;
+	height:140px;
+}
+#divB2{
+	height:358px;
+	width:350px;
+	float:left;
+}
+#divB21{
+	background-image:url(images/h5_07.jpg);
+	width:377px;
+	height:183px;
+}
+#divB22{
+	background-image:url(images/pic_linedot2.jpg);
+	width:349px;
+	height:3px;
+}
+#divB23{
+	height:172px;
+	width:377px;
+}
+#divB3{
+
+	float:left;
+	background-image:url(images/h8_04.jpg);
+	width:177px;
+	height:358px;
+}
+#divFoot{
+	height:253px;
+	width:766px;
+	background-image:url(images/bottom.jpg);
+	background-repeat:no-repeat;
+	text-align:center;
+	font-size:14px
+}

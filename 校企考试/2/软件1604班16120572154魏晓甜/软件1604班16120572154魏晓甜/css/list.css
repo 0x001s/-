@@ -1,0 +1,29 @@
+@charset "utf-8";
+/* CSS Document */
+#all{
+	width:766px;;
+	height:515px;
+	margin:0 auto;
+}
+#Div_left{
+	float:left;
+	width:214px;
+}
+#Div_middle{
+	width:368px;
+	height:364px;
+	float:left;
+	background-image:url(../images/H7_03.jpg);
+}
+#Div_right{
+	width:184px;
+	height:364px;
+	float:left;
+	background-image:url(../images/pic_big2.jpg);
+}
+#Div_bottom{
+	width:766px;
+	height:64px;
+	background-image:url(../images/bottom.jpg);
+	margin:0 auto;
+}

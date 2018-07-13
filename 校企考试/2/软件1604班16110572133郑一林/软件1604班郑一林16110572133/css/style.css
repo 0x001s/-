@@ -1,0 +1,46 @@
+@charset "utf-8";
+/* CSS Document */
+#LeftHead{
+	width:243px;
+	height:125px;
+	background-image:url(../images/logo.jpg);
+
+}
+#LeftBody1{
+	width:243px;
+	height:26px;
+	background-image:url(../images/searchbg.jpg);
+
+}
+#LeftBody2{
+	width:222px;
+	height:41px;
+	background-image:url(../images/lb2bg.gif);
+
+}
+#LeftBody3{
+	width:119px;
+	height:75px;
+	background-image:url(../images/under9s.gif);
+	float:left;
+}
+#LeftBody4{
+	width:119px;
+	height:75px;
+	background-image:url(../images/under13s.gif);
+	float:left;
+}
+#LeftBody5{
+	width:119px;
+	height:75px;
+	background-image:url(../images/under14s.gif);
+	float:left;
+}
+#LeftBody6{
+	width:119px;
+	height:75;
+	background-color:#FFF;
+	font-size:16px;
+	color:#F00;
+	float:inherit;
+}
